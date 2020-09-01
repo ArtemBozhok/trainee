@@ -1,0 +1,10 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    grid-gap: 20px;
+    width: 100%;
+}
+
+h2 {
+    margin-bottom: 10px;
+}

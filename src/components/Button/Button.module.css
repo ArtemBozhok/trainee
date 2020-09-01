@@ -1,0 +1,13 @@
+.btn {
+    text-align: center;
+    padding: 10px 15px;
+    background: #6e201a;
+    color: #ffffff;
+    margin-top: auto !important;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: #000;
+    cursor: pointer;
+}

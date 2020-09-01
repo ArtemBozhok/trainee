@@ -1,0 +1,41 @@
+.App {
+  position: relative;
+  padding-bottom: 60px;
+}
+
+.container {
+  width: 1300px;
+  margin: 0 auto;
+}
+
+body * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: .3s ease;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    width: 900px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .container {
+    width: 768px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
